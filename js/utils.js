@@ -440,7 +440,7 @@
 					for(var i=1;i<information.length;i++){
 						csv.information[j].values[i-1] = Number(information[i][j]);
 					}
-					csv.information[j].numClass = 2;
+					csv.information[j].numClass = 5;
 					csv.information[j].name = information[0][j];
 
 				}
